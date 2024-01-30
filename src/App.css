@@ -1,0 +1,37 @@
+/* FONTS----------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&family=EB+Garamond&family=Inria+Sans&family=Open+Sans&family=Oswald&family=Poppins&family=Roboto&family=Titillium+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Utility Classes -------------------- */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 50px;
+}
+
+.margin {
+    margin: 25px;
+}
+
+/* CSS---------------------------------- */
+
+.todo-title {
+    margin: 15px;
+    margin-bottom: 35px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
